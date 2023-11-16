@@ -1,0 +1,6 @@
+myInt = int(input("Enter a Integer : "))
+myFloat = float(input("Enter a float : "))
+myString = str(input("Enter a string : "))
+print(f"Integer : {myInt}")
+print(f"Float : {myFloat}")
+print(f"String : {myString}")
