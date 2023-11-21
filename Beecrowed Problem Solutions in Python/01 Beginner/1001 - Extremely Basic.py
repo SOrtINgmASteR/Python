@@ -1,5 +1,5 @@
 #1001 - Extremely Basic
 a = int(input()) 
 b = int(input())
-x = a+b
+x = a + b
 print(f"X = {x}")
