@@ -1,4 +1,4 @@
-# For Loops
+# For Loops with range()
 for i in range(10, 20, 2):
     print(f"{i} ", end="")
 print()
