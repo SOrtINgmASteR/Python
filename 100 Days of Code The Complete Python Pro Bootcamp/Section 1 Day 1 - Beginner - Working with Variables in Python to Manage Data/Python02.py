@@ -1,6 +1,10 @@
-my_int = 50
-my_float = 50.55
-my_string = "500"
-print(type(my_int))
-print(type(my_float))
-print(type(my_string))
+# Exercise - Lesson 1 - Printing
+
+print("Day 1 - Python Print Function")
+print("The function is declared like this:")
+print("print('what to print')")
+
+print('''Day 1 - Python Print Function
+The function is declared like this:
+print('what to print')
+''')

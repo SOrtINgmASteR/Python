@@ -1,4 +1,10 @@
-number1 = int(input("Enter Number 1 : "))
-number2 = int(input("Enter Number 2 : "))
-sum = number1 + number2
-print(f"Summation of the numbers : {sum}")
+# Exercise - Lesson 3 - Input Function
+
+num1 = int(input())
+num2 = int(input())
+print(num1 * num2)
+
+s = input()
+length = len(s)
+print(length)
+
