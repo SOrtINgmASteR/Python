@@ -1,4 +1,4 @@
-<h2 style="text-align:center">DAY - 2</h2>   
+<h2 style="text-align:center">DAY - 2</h2>  
 
 <h3 style="text-align:center;">Lesson 5 - Data Types</h3>  
 
@@ -38,4 +38,5 @@ total_bill *= (1+(tip_percentage / 100))
 per_person = total_bill / people
 
 print(f"Each person should pay : ${'{:.2f}'.format(per_person)}")
+print(f"Each person should pay : ${round(per_person, 2)}")
 ```
