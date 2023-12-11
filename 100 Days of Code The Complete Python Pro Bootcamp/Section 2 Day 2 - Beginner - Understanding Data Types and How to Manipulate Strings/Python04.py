@@ -1,19 +1,20 @@
-a = 20
+# Python Operators
+a = 22
 b = 5
+print(f"a = {a}\nb = {b}")
 
 summation = a + b
 subtraction = a - b
 multiplication = a * b
 division = a / b
 exponent = a**b
+integer_division = a // b
+modulus = a % b
 
-print(summation)
-print(subtraction)
-print(multiplication)
-print(division)
-print(exponent)
-
-x = 12
-y = 5
-print(x//y)
-print(x%y)
+print(f"a + b : {summation}")
+print(f"a - b : {subtraction}")
+print(f"a * b : {multiplication}")
+print(f"a / b : {division}")
+print(f"a ** b : {exponent}")
+print(f"a // b : {integer_division}")
+print(f"a % b : {modulus}")

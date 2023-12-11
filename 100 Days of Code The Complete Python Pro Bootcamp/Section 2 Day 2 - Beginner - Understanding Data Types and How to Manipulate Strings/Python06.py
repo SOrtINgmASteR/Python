@@ -1,7 +1,9 @@
+# Python Complex Arithmetics Operator
 import math
-print(round(10 / 3, 2))
-print(math.ceil(3.4))
-print(math.floor(3.4))
+print(round(3.458922, 2))
+print(math.ceil(3.45))
+print(math.floor(3.45))
+
 number = 10
 
 number += 10
