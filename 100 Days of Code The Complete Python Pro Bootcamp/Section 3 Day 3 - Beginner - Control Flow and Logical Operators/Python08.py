@@ -1,4 +1,4 @@
-# Pizza Price
+# Exercise - Lesson 11 - Pizza Order Practise
 bill = int(0)
 size = str(input("Which Pizza size do you want? L, M, S : "))
 if size == "S":
@@ -20,4 +20,4 @@ extra_cheese = str(input("Add Extra Cheese for any pizza? Y-yes or N-no : "))
 if extra_cheese == "Y":
     bill += 1
 print("Thank you for choosing Python Pizza Deliveries!")
-print(f"Your final bill is ${bill}.")
+print(f"Your final bill is : ${bill}.")

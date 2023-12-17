@@ -1,6 +1,6 @@
-# Exercise detect odd or even
+# Exercise - Lesson 8 - Odd or Even
 number = int(input("Enter a Number : "))
 if number % 2 == 0:
-    print(f"The Number {number} is Even")
-else :
-    print(f"The number {number} is Odd")
+    print(f"This is an even number.")
+else:
+    print(f"This is an odd number.")

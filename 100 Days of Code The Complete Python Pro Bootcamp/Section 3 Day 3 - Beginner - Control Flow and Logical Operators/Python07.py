@@ -22,7 +22,7 @@ if height >= 120.00:
     else:
         print("No Photo Price")
 
-    print(f"Total Bill ${bill}")
+    print(f"Total Bill : ${bill}")
 
 else:
     print("Sorry you can't ride the roller coaster")
