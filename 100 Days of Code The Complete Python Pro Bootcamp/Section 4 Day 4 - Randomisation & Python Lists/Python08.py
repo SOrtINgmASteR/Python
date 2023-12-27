@@ -1,14 +1,20 @@
-# List organizing methods
-my_numbers = [5, -3, 2, 14, 1, 34, -24, -3, -8]
-
-# Not permanent sort
-print(f"Not permanent Sorting : {sorted(my_numbers)}")
-print(f"Original List : {my_numbers}")
-print(f"Not permanent Sorting : {sorted(my_numbers, reverse=True)}")
-print(f"Original List : {my_numbers}")
-
-# Permanent sort
-my_numbers.sort()
-print(my_numbers)
-my_numbers.sort(reverse=True)
-print(my_numbers)
+# Exercise - Treasure Map
+list1 = ["⬜️", "️⬜️", "️⬜️"]
+list2 = ["⬜️", "⬜️", "️⬜️"]
+list3 = ["⬜️️", "⬜️️", "⬜️️"]
+treasure_map = [list1, list2, list3]
+position = str(input("Enter Position : "))
+letter = position[0].upper()
+number = int(position[1])
+column = int(0)
+row = int(0)
+if letter == 'A':
+    column = 0
+elif letter == 'B':
+    column = 1
+elif letter == 'C':
+    column = 2
+row = number - 1
+treasure_map[row][column] = 'X'
+print("Hiding your treasure! X marks the spot.")
+print(f"{list1}\n{list2}\n{list3}")

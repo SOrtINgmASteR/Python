@@ -1,21 +1,16 @@
-# Exercise - Treasure Map
-list1 = ["🔲", "🔲", "🔲"]
-list2 = ["🔲", "🔲", "🔲"]
-list3 = ["🔲", "🔲", "🔲"]
-map = [list1, list2, list3]
-position = input("Enter Position in the map : ")
-letter = position[0].upper()
-number = int(position[1])
-column = int(0)
-row = int(0)
-if letter == 'A':
-    column = 0
-elif letter == 'B':
-    column = 1
-elif letter == 'C':
-    column = 2
+# List organizing methods
+my_numbers = [5, -3, 2, 14, 1, 34, -24, -3, -8]
 
-row = number - 1
-map[row][column] = 'X'
+# Not permanent sort
+print(f"Not permanent Sorting Ascending : {sorted(my_numbers)}")
+print(f"Original List : {my_numbers}")
+print(f"Not permanent Sorting Descending : {sorted(my_numbers, reverse=True)}")
+print(f"Original List : {my_numbers}")
 
-print(f"{list1}\n{list2}\n{list3}")
+# Permanent sort
+print("Permanent Sort Ascending : ")
+my_numbers.sort()
+print(my_numbers)
+print("Permanent Sort Descending : ")
+my_numbers.sort(reverse=True)
+print(my_numbers)
