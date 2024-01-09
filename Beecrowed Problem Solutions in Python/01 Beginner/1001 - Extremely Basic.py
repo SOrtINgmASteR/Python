@@ -1,4 +1,4 @@
-#1001 - Extremely Basic
+# 1001 - Extremely Basic
 a = int(input()) 
 b = int(input())
 x = a + b

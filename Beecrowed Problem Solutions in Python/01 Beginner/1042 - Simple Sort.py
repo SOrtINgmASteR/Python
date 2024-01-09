@@ -1,10 +1,10 @@
-#1042 - Simple Sort
+# 1042 - Simple Sort
 numbers=[]
-s=input().split(" ")
-a, b, c=s
-a=int(a)
-b=int(b)
-c=int(c)
+s = input().split(" ")
+a, b, c = s
+a = int(a)
+b = int(b)
+c = int(c)
 numbers.append(a)
 numbers.append(b)
 numbers.append(c)

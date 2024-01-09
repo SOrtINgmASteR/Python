@@ -1,4 +1,4 @@
-#1003 - Simple Sum
+# 1003 - Simple Sum
 a = int(input()) 
 b = int(input())
 sum = a + b
