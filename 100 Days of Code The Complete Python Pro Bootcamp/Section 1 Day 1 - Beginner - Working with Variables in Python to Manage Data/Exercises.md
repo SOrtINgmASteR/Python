@@ -4,15 +4,20 @@
 
 **Using separate `print()` function for each line :**  
 ```python
-print("Day 1 - Python Print Function")
-print("The function is declared like this:")
-print("print('what to print')")
-```
-**Using a single `print()` function for all the lines :**
+print("1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.")
+print("2. Knead the dough for 10 minutes.")
+print("3. Add 3g of Salt.")
+print("4. Leave to rise for 2 hours.")
+print("5. Bake at 200 degrees C for 30 minutes.")
+```  
+
+**Using a single `print()` function for all the lines :**  
 ```python
-print('''Day 1 - Python Print Function
-The function is declared like this:
-print('what to print')
+print('''1. Mix 500g of Flour, 10g Yeast and 300ml Water in a bowl.
+2. Knead the dough for 10 minutes.
+3. Add 3g of Salt.
+4. Leave to rise for 2 hours.
+5. Bake at 200 degrees C for 30 minutes.
 ''')
 ```
 
@@ -26,10 +31,11 @@ print("String Concatenation is done with the "+" sign.")
 print(("New lines can be created with a backslash and n.")
 ```
 **Errors-**  
-1.In the first line the beginning `"` is missing.  
-2.In second line an extra '+' need to be added for the desired output.  
-3.In the third line extra indentation was used.  
-4.In the fourth line an extra bracket is used.  
+- In the first line the beginning `"` is missing.  
+- In second line an extra '+' need to be added for the desired output.  
+- In the third line extra indentation was used.  
+- In the fourth line an extra bracket is used.  
+
 **Code without Errors-**  
 ```python
 print("Day 1 - String Manipulation")
@@ -55,7 +61,6 @@ print(length)
 ```
 <h3 style="text-align:center;">Lesson 4 - Variables</h3>  
 
-<h4 style="text-align:center">Exercise - 1</h4>  
 
 We will just swap the variables -  
 Input - 
@@ -74,7 +79,7 @@ Printing -
 print("a: " + a)
 print("b: " + b)
 ```
-<h4 style="text-align:center">Exercise - 2 Band Name Generator</h4>  
+<h3 style="text-align:center">Band Name Generator</h3>  
 
 ```python
 city_name = str(input("Enter your city name : "))

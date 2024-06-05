@@ -7,4 +7,3 @@ print(num1 * num2)
 s = input()
 length = len(s)
 print(length)
-
