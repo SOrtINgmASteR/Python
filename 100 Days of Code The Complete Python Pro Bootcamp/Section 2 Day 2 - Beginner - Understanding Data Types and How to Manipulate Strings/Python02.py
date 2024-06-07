@@ -1,4 +1,5 @@
 # Type casting of all types of variable
+
 myInt = int(input("Enter a Integer : "))
 myFloat = float(input("Enter a float : "))
 myString = str(input("Enter a string : "))

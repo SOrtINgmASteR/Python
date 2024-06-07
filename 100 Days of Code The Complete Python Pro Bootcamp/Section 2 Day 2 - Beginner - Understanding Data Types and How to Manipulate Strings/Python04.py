@@ -1,4 +1,5 @@
 # Python Operators
+
 a = 22
 b = 5
 print(f"a = {a}\nb = {b}")

@@ -1,4 +1,5 @@
 # Exercise - Lesson 7 - Life in Weeks
+
 age = int(input("Enter Age : "))
 remaining_age = 90 - age
 weeks = int((remaining_age * 52))
