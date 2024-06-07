@@ -1,4 +1,5 @@
 # Roller Coaster - 4
+
 print("Welcome to the Roller coaster!")
 height = float(input("Enter height in cm : "))
 bill = int(0)

@@ -1,4 +1,5 @@
 # Exercise - Lesson 12 - Love Calculator
+
 name1 = str(input("Enter 1st Name : "))
 name2 = str(input("Enter 2nd Name : "))
 combined_name = name1 + name2
