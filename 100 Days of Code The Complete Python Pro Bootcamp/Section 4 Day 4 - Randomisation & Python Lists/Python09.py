@@ -1,6 +1,8 @@
 # Exercise - Rock, Paper, Scissor game
+
 import random
 import rock_paper_scissor
+
 your_choice = int(input("Enter 1 - for ROCK, 2 - for PAPER, 3 - for SCISSOR : "))
 computer_choice = int(random.randint(1, 3))
 

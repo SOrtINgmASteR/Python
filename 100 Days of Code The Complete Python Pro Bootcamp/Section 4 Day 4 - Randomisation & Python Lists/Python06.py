@@ -1,4 +1,5 @@
 # Exercise - Lesson 14 - Banker Roulette
+
 import random
 # friends = input().split(", ")
 friends = list(map(str, input().split(", ")))

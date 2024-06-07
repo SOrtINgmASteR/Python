@@ -14,7 +14,7 @@ elif heads_or_tail == 0:
 
 ```python
 import random
-names = names_string.split(", ")
+names = input().split(", ")
 length = int(len(names))
 index = random.randint(0, length - 1)
 print(f"{names[index]} is going to buy the meal today!")
@@ -77,7 +77,6 @@ show_scissor = str("""
 ```  
 **Main Code**  
 ```python
-# Exercise - Rock, Paper, Scissor game
 import random
 import rock_paper_scissor
 your_choice = int(input("Enter 1 - for ROCK, 2 - for PAPER, 3 - for SCISSOR : "))

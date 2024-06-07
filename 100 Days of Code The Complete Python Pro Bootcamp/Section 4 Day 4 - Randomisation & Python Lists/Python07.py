@@ -1,4 +1,5 @@
 # Nested Lists
+
 student1_grades = ["A-", "B+", "A+", "A-", "A"]
 student2_grades = ["B+", "B+", "A", "A-", "B-"]
 student3_grades = ["A+", "A+", "A-", "A", "B"]
