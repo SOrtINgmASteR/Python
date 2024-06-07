@@ -1,4 +1,5 @@
 # Exercise - Lesson 10 - Leap Year (nested if - else)
+
 year = int(input("Enter year : "))
 if year % 4 == 0:
     if year % 100 == 0:

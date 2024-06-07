@@ -1,6 +1,7 @@
 # Logical Operator (and, or, not)
+
 a = int(10)
-print(5 < a and a < 20)
+print(a < 20 and a > 5)
 print(5 < a < 20)
 print(5 < a or a < 5)
 print(not(5 < a < 20))

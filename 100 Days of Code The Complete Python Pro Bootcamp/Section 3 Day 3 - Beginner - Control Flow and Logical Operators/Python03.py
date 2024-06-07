@@ -1,4 +1,5 @@
 # Roller Coaster -2
+
 print("Welcome to the Roller coaster!")
 height = float(input("Enter height in cm : "))
 if height >= 120.00:

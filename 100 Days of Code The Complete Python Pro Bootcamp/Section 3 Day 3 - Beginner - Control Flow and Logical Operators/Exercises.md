@@ -79,6 +79,33 @@ if extra_cheese == "Y":
 print("Thank you for choosing Python Pizza Deliveries!")
 print(f"Your final bill is: ${bill}.")
 ```  
+<h3 style="text-align:center;">another way - </h3>  
+
+```python
+bill = int(0)
+size = str(input())
+if size == 'L':
+    bill += 25
+elif size == 'M':
+    bill += 20
+elif size == 'S':
+    bill += 15
+
+pepperoni = str(input())
+if pepperoni == 'Y':
+    if size == 'M' or size == 'L':
+        bill += 3
+    elif size == 'S':
+        bill += 2
+
+extra_cheese = str(input())
+if extra_cheese == 'Y':
+    bill += 1
+
+print("Thank you for choosing Python Pizza Deliveries!")
+print(f"Your final bill is: ${bill}.")
+```
+
 <h3 style="text-align:center;">Lesson 12 - Love calculator</h3>  
 
 ```python

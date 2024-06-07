@@ -1,4 +1,5 @@
 # Treasure Island
+
 print("WELCOME TO THE TREASURE ISLAND!")
 left_or_right = str(input("Where do you want to go? left or right : "))
 if left_or_right == "left":
