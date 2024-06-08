@@ -1,4 +1,5 @@
 # Exercise Lesson 17 - High Score
+
 # With range()
 scores = list(map(int, input().split(" ")))
 max_score = int(scores[0]);

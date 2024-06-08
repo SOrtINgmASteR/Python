@@ -1,4 +1,5 @@
 # Loop through a List (with for loops)
+
 my_number = [10, 20, 40, -10, 60, 34]
 for number in my_number:
     print(f"{number} ", end="")

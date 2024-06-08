@@ -1,4 +1,5 @@
 # Exercise - Lesson 16 - Average Height
+
 # With range()
 heights = input().split(" ")
 total = int(0)

@@ -1,4 +1,5 @@
 # Exercise - Lesson 18 - Adding Even Numbers
+
 n = int(input())
 even_sum = int(0)
 for i in range(1, n+1):
