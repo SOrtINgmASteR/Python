@@ -1,4 +1,5 @@
 # While Loops
+
 # Digit Sum
 def digit_summation(n):
     digit_sum = int(0)
@@ -14,7 +15,7 @@ def digit_summation(n):
 def digit_count(n):
     count = int(0)
     while n != 0:
-        n //= 10;
+        n //= 10
         count += 1
     return count
 
